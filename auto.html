@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AutoMM — Tacloban's Maxim Riders Community</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/auto.css">
+  <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+
+<!-- ══════════════ NAV ══════════════ -->
+<nav id="navbar">
+  <a href="#home" class="nav-logo">
+    <div class="nav-logo-badge"><i class="fa-solid fa-motorcycle"></i></div>
+    <span class="nav-logo-text">Auto<span>MM</span></span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#team">Our Team</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#toprider">Top Rider</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#community">Community</a></li>
+    <li><a href="#join" class="nav-cta">Join Us</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#home" onclick="closeMobile()">Home</a>
+  <a href="#about" onclick="closeMobile()">About</a>
+  <a href="#team" onclick="closeMobile()">Our Team</a>
+  <a href="#services" onclick="closeMobile()">Services</a>
+  <a href="#toprider" onclick="closeMobile()">Top Rider</a>
+  <a href="#gallery" onclick="closeMobile()">Gallery</a>
+  <a href="#community" onclick="closeMobile()">Community</a>
+  <a href="#join" onclick="closeMobile()" class="nav-cta" style="text-align:center;border-radius:8px;padding:12px;">Join Us</a>
+</div>
+
+<!-- ══════════════ HERO ══════════════ -->
+<section id="home">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="shape shape-1"></div>
+  <div class="shape shape-2"></div>
+  <div class="shape shape-3"></div>
+
+  <div class="hero-content">
+    <div class="hero-badge">
+      <i class="fa-solid fa-circle-dot"></i>
+      Maxim Riders Community — Tacloban City
+    </div>
+    <h1 class="hero-title">
+      <div>EAT</div>
+      <div class="line-yellow">SLEEP</div>
+      <div class="line-red">RIDE</div>
+      <div>REPEAT</div>
+    </h1>
+    <p class="hero-sub">
+      AutoMM is Tacloban City's official Maxim rider community — built on brotherhood, 
+      connection, and hustle. We're not just riders; we're family on every delivery.
+    </p>
+    <div class="hero-actions">
+      <a href="#join" class="btn-primary">
+        <i class="fa-solid fa-user-plus"></i> Join the Crew
+      </a>
+      <a href="#about" class="btn-outline">
+        <i class="fa-solid fa-play"></i> Learn More
+      </a>
+    </div>
+
+    <div class="hero-stats">
+      <div class="stat-card">
+        <div class="stat-num">100+</div>
+        <div class="stat-label">Maxim Riders</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">5K+</div>
+        <div class="stat-label">Deliveries Done</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">10+</div>
+        <div class="stat-label">Group Rides</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-hint">
+    <span>Scroll</span>
+    <i class="fa-solid fa-chevron-down"></i>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ══════════════ ABOUT ══════════════ -->
+<section id="about">
+  <div class="about-grid">
+    <div class="about-visual reveal">
+      <div class="about-img-wrap">
+        <div class="about-circle">
+          <i class="fa-solid fa-motorcycle"></i>
+          <div class="about-circle-inner">
+            <i class="fa-solid fa-people-group"></i>
+          </div>
+        </div>
+        <div class="about-badge-float top">
+          <i class="fa-solid fa-star"></i> Est. 2025
+        </div>
+        <div class="about-badge-float bottom">
+          <i class="fa-solid fa-location-dot"></i> Tacloban City
+        </div>
+      </div>
+    </div>
+    <div class="about-text reveal">
+      <div class="section-label">Who We Are</div>
+      <h2 class="section-title">Tacloban's<br>Maxim Riders.</h2>
+      <p class="section-sub">
+        AutoMM is a proud community of Maxim delivery riders based in Tacloban City, Leyte. 
+        We started as a small circle of riders who believed that staying connected makes us stronger — 
+        and today, we ride as one unified brotherhood under the Maxim platform.
+      </p>
+      <ul class="about-points">
+        <li>
+          <div class="icon-wrap"><i class="fa-solid fa-motorcycle"></i></div>
+          <div>We are an exclusive community for <strong>Maxim riders in Tacloban City</strong> — connecting every rider under one brotherhood.</div>
+        </li>
+        <li>
+          <div class="icon-wrap"><i class="fa-solid fa-shield-halved"></i></div>
+          <div>We promote road safety, mutual support, and professional delivery standards for all our Maxim riders in Tacloban.</div>
+        </li>
+        <li>
+          <div class="icon-wrap"><i class="fa-solid fa-fire"></i></div>
+          <div>We organize group rides, outings, and events around Tacloban and Leyte that keep the brotherhood spirit alive.</div>
+        </li>
+        <li>
+          <div class="icon-wrap"><i class="fa-solid fa-star"></i></div>
+          <div>Our mission: Eat. Sleep. Ride. Repeat. — and never ride the streets of Tacloban alone.</div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ══════════════ ORG CHART / TEAM ══════════════ -->
+<section id="team">
+  <div class="section-label reveal">Organization</div>
+  <h2 class="section-title reveal">The People<br><span style="color:var(--yellow)">Behind AutoMM</span></h2>
+  <p class="section-sub reveal">The pioneers and core members who built and lead this Maxim rider community from the ground up in Tacloban City.</p>
+
+  <div class="org-tree reveal">
+
+    <!-- Founder -->
+    <div class="org-level org-level--founder">
+      <div class="org-card org-card--founder">
+        <div class="org-avatar">
+          <i class="fa-solid fa-crown"></i>
+        </div>
+        <div class="org-card-badge">Founder</div>
+        <h3 class="org-name">Chester</h3>
+        <span class="org-role">Group Founder & Visionary</span>
+        <p class="org-desc">The pioneer who started AutoMM in Tacloban City and built this Maxim rider community from scratch.</p>
+      </div>
+    </div>
+
+    <div class="org-connector-v"></div>
+
+    <!-- Leaders Row -->
+    <div class="org-level org-level--leaders">
+      <div class="org-branch-line"></div>
+      <div class="org-card org-card--leader">
+        <div class="org-avatar"><i class="fa-solid fa-user-tie"></i></div>
+        <div class="org-card-badge org-card-badge--red">CO-Founder</div>
+        <h3 class="org-name">Marky</h3>
+        <span class="org-role">CO-Founder</span>
+        <p class="org-desc">Leads the overall direction and vision of the AutoMM community in Tacloban.</p>
+      </div>
+
+   
+
+    <div class="org-level org-level--label">
+      <div class="org-members-label">
+        <i class="fa-solid fa-users"></i> Core Members
+      </div>
+    </div>
+<div class="org-connector-v"></div>
+    <div class="org-members-grid reveal">
+      <div class="member-card">
+        <div class="member-avatar"><i class="fa-solid fa-user"></i></div>
+        <div class="member-info"><strong>Bradley</strong><span>Core Member</span></div>
+        <div class="member-badge"><i class="fa-solid fa-motorcycle"></i></div>
+      </div>
+      <div class="member-card">
+        <div class="member-avatar"><i class="fa-solid fa-user"></i></div>
+        <div class="member-info"><strong>Jetrixmyr</strong><span>Core Member</span></div>
+        <div class="member-badge"><i class="fa-solid fa-motorcycle"></i></div>
+      </div>
+      <div class="member-card">
+        <div class="member-avatar"><i class="fa-solid fa-user"></i></div>
+        <div class="member-info"><strong>Alvex</strong><span>Core Member</span></div>
+        <div class="member-badge"><i class="fa-solid fa-motorcycle"></i></div>
+      </div>
+      <div class="member-card">
+        <div class="member-avatar"><i class="fa-solid fa-user"></i></div>
+        <div class="member-info"><strong>Joshua</strong><span>Core Member</span></div>
+        <div class="member-badge"><i class="fa-solid fa-motorcycle"></i></div>
+      </div>
+      <div class="member-card">
+        <div class="member-avatar"><i class="fa-solid fa-user"></i></div>
+        <div class="member-info"><strong>Welfredo</strong><span>Core Member</span></div>
+        <div class="member-badge"><i class="fa-solid fa-motorcycle"></i></div>
+      </div>
+      <div class="member-card">
+        <div class="member-avatar"><i class="fa-solid fa-user"></i></div>
+        <div class="member-info"><strong>Ryan</strong><span>Core Member</span></div>
+        <div class="member-badge"><i class="fa-solid fa-motorcycle"></i></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ══════════════ SERVICES ══════════════ -->
+<section id="services">
+  <div class="services-header">
+    <div>
+      <div class="section-label reveal">What We Do</div>
+      <h2 class="section-title reveal">Our Services</h2>
+    </div>
+    <p class="section-sub reveal" style="text-align:right;">
+      Serving Tacloban City through Maxim — fast, reliable, and community-driven deliveries every single day.
+    </p>
+  </div>
+  <div class="services-grid">
+
+    <div class="service-card featured reveal">
+      <div class="service-icon"><i class="fa-solid fa-person-biking"></i></div>
+      <h3>Maxim Motorcycle</h3>
+      <p>Need a ride around Tacloban City? Book a Maxim motorcycle and our AutoMM riders will take you safely and affordably.</p>
+      <span class="service-tag"><i class="fa-solid fa-arrow-right"></i> Most Popular</span>
+    </div>
+    <div class="service-card reveal">
+      <div class="service-icon"><i class="fa-solid fa-car"></i></div>
+      <h3>Maxim Car</h3>
+      <p>Need a ride around Tacloban City? Book a Maxim car and our AutoMM riders will take you safely and affordably.</p>
+     <span class="service-tag"><i class="fa-solid fa-arrow-right"></i> Book via Maxim App</span>
+    </div>
+    <div class="service-card reveal">
+      <div class="service-icon"><i class="fa-solid fa-bag-shopping"></i></div>
+      <h3>Pabili Service</h3>
+      <p>Need something from the palengke or store in Tacloban? We'll buy it and bring it straight to your door — quick and hassle-free.</p>
+      <span class="service-tag"><i class="fa-solid fa-arrow-right"></i> Book via Maxim App</span>
+    </div>
+    <div class="service-card reveal">
+      <div class="service-icon"><i class="fa-solid fa-utensils"></i></div>
+      <h3>Food Delivery</h3>
+      <p>Hot meals from your favorite Tacloban restaurants and carenderias, delivered fresh and fast right to your door.</p>
+      <span class="service-tag"><i class="fa-solid fa-arrow-right"></i>Book via Maxim</span>
+    </div>
+    <div class="service-card reveal">
+      <div class="service-icon"><i class="fa-solid fa-people-group"></i></div>
+      <h3>Community Rides</h3>
+      <p>Join our scheduled group rides and outings around Leyte and Eastern Visayas. Brotherhood on every kilometer of the road.</p>
+      <span class="service-tag"><i class="fa-solid fa-arrow-right"></i> View Events</span>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ══════════════ TOP RIDER ══════════════ -->
+<section id="toprider">
+  <div class="section-label reveal">Recognition</div>
+  <h2 class="section-title reveal">Top Rider of<br><span style="color:var(--yellow)">The Month</span></h2>
+  <p class="section-sub reveal">Every month, we recognize the best Maxim rider in Tacloban who goes above and beyond — in deliveries, attitude, and community spirit.</p>
+
+  <div class="toprider-showcase reveal">
+
+    <div class="toprider-winner">
+      <div class="toprider-crown"><i class="fa-solid fa-crown"></i></div>
+      <div class="toprider-avatar-wrap">
+        <div class="toprider-avatar"><i class="fa-solid fa-user"></i></div>
+        <div class="toprider-rank">#1</div>
+      </div>
+      <div class="toprider-info">
+        <div class="toprider-badge">
+          <i class="fa-solid fa-trophy"></i> Top Maxim Rider — Tacloban City
+        </div>
+        <h3 class="toprider-name">[Rider Name]</h3>
+        <span class="toprider-month">March 2025</span>
+        <div class="toprider-stats">
+          <div class="tr-stat">
+            <i class="fa-solid fa-box"></i>
+            <div><strong>000+</strong><span>Deliveries</span></div>
+          </div>
+          <div class="tr-stat">
+            <i class="fa-solid fa-star"></i>
+            <div><strong>5.0</strong><span>Rating</span></div>
+          </div>
+          <div class="tr-stat">
+            <i class="fa-solid fa-road"></i>
+            <div><strong>000+</strong><span>Km Ridden</span></div>
+          </div>
+          <div class="tr-stat">
+            <i class="fa-solid fa-clock"></i>
+            <div><strong>00hrs</strong><span>Online</span></div>
+          </div>
+        </div>
+        <p class="toprider-quote">"[A short quote or message from the top rider]"</p>
+      </div>
+    </div>
+
+    <div class="toprider-hof">
+      <div class="hof-title"><i class="fa-solid fa-medal"></i> Hall of Fame</div>
+      <div class="hof-list">
+        <div class="hof-item">
+          <div class="hof-num">1</div>
+          <div class="hof-avatar"><i class="fa-solid fa-user"></i></div>
+          <div class="hof-info"><strong>[Rider Name]</strong><span>February 2025</span></div>
+          <div class="hof-deliveries"><i class="fa-solid fa-box"></i> 000+</div>
+        </div>
+        <div class="hof-item">
+          <div class="hof-num">2</div>
+          <div class="hof-avatar"><i class="fa-solid fa-user"></i></div>
+          <div class="hof-info"><strong>[Rider Name]</strong><span>January 2025</span></div>
+          <div class="hof-deliveries"><i class="fa-solid fa-box"></i> 000+</div>
+        </div>
+        <div class="hof-item">
+          <div class="hof-num">3</div>
+          <div class="hof-avatar"><i class="fa-solid fa-user"></i></div>
+          <div class="hof-info"><strong>[Rider Name]</strong><span>December 2024</span></div>
+          <div class="hof-deliveries"><i class="fa-solid fa-box"></i> 000+</div>
+        </div>
+        <div class="hof-item">
+          <div class="hof-num">4</div>
+          <div class="hof-avatar"><i class="fa-solid fa-user"></i></div>
+          <div class="hof-info"><strong>[Rider Name]</strong><span>November 2024</span></div>
+          <div class="hof-deliveries"><i class="fa-solid fa-box"></i> 000+</div>
+        </div>
+        <div class="hof-item">
+          <div class="hof-num">5</div>
+          <div class="hof-avatar"><i class="fa-solid fa-user"></i></div>
+          <div class="hof-info"><strong>[Rider Name]</strong><span>October 2026</span></div>
+          <div class="hof-deliveries"><i class="fa-solid fa-box"></i> 000+</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ══════════════ GALLERY ══════════════ -->
+<section id="gallery">
+  <div class="gallery-header">
+    <div class="section-label reveal">Moments</div>
+    <h2 class="section-title reveal">Trips & Outings</h2>
+    <p class="section-sub reveal">Every ride around Tacloban and Leyte is a memory worth keeping. Every outing is a story worth telling.</p>
+    <div class="gallery-filter reveal">
+      <button class="filter-btn active" onclick="filterGallery(this,'all')">All</button>
+      <button class="filter-btn" onclick="filterGallery(this,'rides')">Group Rides</button>
+      <button class="filter-btn" onclick="filterGallery(this,'events')">Events</button>
+      <button class="filter-btn" onclick="filterGallery(this,'community')">Community</button>
+    </div>
+  </div>
+  <div class="gallery-grid reveal">
+    <div class="gallery-item" onclick="openLightbox('Group Ride — Leyte Outing','AutoMM riders take on the scenic roads of Leyte together.')">
+      <div class="gallery-placeholder"><i class="fa-solid fa-image"></i><span>Group Ride — Leyte</span></div>
+      <div class="gallery-overlay"><h4>Group Ride — Leyte</h4><p>Feb 2025 • AutoMM Riders</p></div>
+    </div>
+    <div class="gallery-item" onclick="openLightbox('Night Ride — Tacloban Boulevard','City lights along Tacloban boulevard and open roads.')">
+      <img src="images/1.jpg" alt="Group Ride Leyte" />
+      <div class="gallery-overlay"><h4>Night Ride — Tacloban</h4><p>Jan 2025 • Boulevard Run</p></div>
+    </div>
+    <div class="gallery-item" onclick="openLightbox('AutoMM Anniversary','Celebrating our founding and the community we have built in Tacloban.')">
+      <div class="gallery-placeholder"><i class="fa-solid fa-cake-candles"></i><span>Anniversary Event</span></div>
+      <div class="gallery-overlay"><h4>Anniversary Event</h4><p>Dec 2024 • 1 Year!</p></div>
+    </div>
+    <div class="gallery-item" onclick="openLightbox('Mountain Ride','Conquering the hills of Leyte together as one AutoMM crew.')">
+      <div class="gallery-placeholder"><i class="fa-solid fa-mountain"></i><span>Mountain Ride</span></div>
+      <div class="gallery-overlay"><h4>Mountain Ride</h4><p>Nov 2024 • Leyte Hills</p></div>
+    </div>
+    <div class="gallery-item" onclick="openLightbox('Road Safety Seminar','Keeping every Maxim rider in Tacloban safe and informed.')">
+      <div class="gallery-placeholder"><i class="fa-solid fa-shield-halved"></i><span>Safety Seminar</span></div>
+      <div class="gallery-overlay"><h4>Safety Seminar</h4><p>Oct 2024 • Tacloban City</p></div>
+    </div>
+    <div class="gallery-item" onclick="openLightbox('Seaside Ride','San Juanico breeze and open roads along the Leyte coast.')">
+      <div class="gallery-placeholder"><i class="fa-solid fa-water"></i><span>Seaside Ride</span></div>
+      <div class="gallery-overlay"><h4>Seaside Ride</h4><p>Sep 2024 • San Juanico Area</p></div>
+    </div>
+    <div class="gallery-item" onclick="openLightbox('Riders Meet & Greet','New Maxim riders welcome event in Tacloban City.')">
+      <div class="gallery-placeholder"><i class="fa-solid fa-handshake"></i><span>Meet & Greet</span></div>
+      <div class="gallery-overlay"><h4>Meet & Greet</h4><p>Aug 2024 • Tacloban City</p></div>
+    </div>
+    <div class="gallery-item" onclick="openLightbox('Christmas Ride','Spreading holiday cheer on two wheels across Tacloban City.')">
+      <div class="gallery-placeholder"><i class="fa-solid fa-star"></i><span>Christmas Ride</span></div>
+      <div class="gallery-overlay"><h4>Christmas Ride</h4><p>Dec 2024 • Tacloban</p></div>
+    </div>
+  </div>
+  <div class="gallery-cta reveal">
+    <p style="color:var(--gray);font-size:.85rem;margin-bottom:16px;">Want to share your ride photos with the community?</p>
+    <a href="#community" class="btn-primary"><i class="fa-brands fa-facebook"></i> Share in Community</a>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ══════════════ COMMUNITY ══════════════ -->
+<section id="community">
+  <div class="community-inner">
+    <div class="community-text">
+      <div class="section-label reveal">Stay Connected</div>
+      <h2 class="section-title reveal">Join Our<br>Brotherhood</h2>
+      <p class="section-sub reveal">
+        AutoMM is more than a Maxim rider group — it's a family right here in Tacloban City. 
+        Connect with us, join our group chats, and be part of something that moves.
+      </p>
+      <div class="community-links reveal">
+        <a href="#" class="community-link">
+          <div class="link-icon fb"><i class="fa-brands fa-facebook-f"></i></div>
+          <div class="link-text">
+            <strong>Facebook Group</strong>
+            <span>Join the AutoMM Tacloban community on FB</span>
+          </div>
+          <i class="fa-solid fa-arrow-right link-arrow"></i>
+        </a>
+        <a href="#" class="community-link">
+          <div class="link-icon ig"><i class="fa-brands fa-instagram"></i></div>
+          <div class="link-text">
+            <strong>Instagram</strong>
+            <span>Follow our ride highlights & updates</span>
+          </div>
+          <i class="fa-solid fa-arrow-right link-arrow"></i>
+        </a>
+        <a href="#" class="community-link">
+          <div class="link-icon wa"><i class="fa-brands fa-whatsapp"></i></div>
+          <div class="link-text">
+            <strong>WhatsApp / Viber</strong>
+            <span>Direct Maxim rider coordination</span>
+          </div>
+          <i class="fa-solid fa-arrow-right link-arrow"></i>
+        </a>
+      </div>
+    </div>
+    <div class="community-values reveal">
+      <div class="value-card">
+        <div class="v-icon"><i class="fa-solid fa-handshake"></i></div>
+        <h4>Brotherhood</h4>
+        <p>Every Maxim rider in Tacloban is family. We look out for one another on and off the road.</p>
+      </div>
+      <div class="value-card">
+        <div class="v-icon"><i class="fa-solid fa-bolt"></i></div>
+        <h4>Speed</h4>
+        <p>We deliver fast across Tacloban because our clients' time and trust matter to us every day.</p>
+      </div>
+      <div class="value-card">
+        <div class="v-icon"><i class="fa-solid fa-shield-halved"></i></div>
+        <h4>Safety</h4>
+        <p>We ride smart on Tacloban roads. Safety gear, safe speeds, safe deliveries — always.</p>
+      </div>
+      <div class="value-card">
+        <div class="v-icon"><i class="fa-solid fa-heart"></i></div>
+        <h4>Passion</h4>
+        <p>We don't just ride for pay — we ride because we genuinely love it and love this community.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ══════════════ JOIN CTA ══════════════ -->
+<section id="join">
+  <div class="section-label">Ready to Ride?</div>
+  <h2 class="section-title">Become an AutoMM<br>Maxim Rider</h2>
+  <p>Are you a Maxim rider based in Tacloban City? AutoMM welcomes you. Join a community built by riders, for riders — where every delivery is done with brotherhood and pride.</p>
+  <div class="join-actions">
+    <a href="#" class="btn-dark"><i class="fa-solid fa-user-plus"></i> Apply to Join</a>
+    <a href="#community" class="btn-ghost-dark"><i class="fa-solid fa-comments"></i> Talk to Us</a>
+  </div>
+</section>
+
+<!-- ══════════════ FOOTER ══════════════ -->
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <div class="footer-logo">
+        <div class="footer-logo-badge"><i class="fa-solid fa-motorcycle"></i></div>
+        <span class="footer-logo-text">Auto<span>MM</span></span>
+      </div>
+      <p class="footer-desc">Tacloban City's Maxim rider community built on connection, brotherhood, and the love of the road. We ride together, we deliver together.</p>
+      <p class="footer-slogan">Eat • Sleep • Ride • Repeat</p>
+    </div>
+    <div class="footer-col">
+      <h5>Navigate</h5>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#team">Our Team</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#toprider">Top Rider</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#community">Community</a></li>
+        <li><a href="#join">Join Us</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Services</h5>
+      <ul>
+        <li><a href="#services">Maxim Motorcycle</a></li>
+        <li><a href="#services">Maxim Car</a></li>
+        <li><a href="#services">Pabili Service</a></li>
+        <li><a href="#services">Food Delivery</a></li>
+        <li><a href="#services">Community Rides</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 <span>AutoMM</span> — Tacloban City. All rights reserved. Made with <span>♥</span> by Bradley Mark Gerarcas [BCreaDev]</p>
+    <div class="footer-socials">
+      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+      <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+  </div>
+</footer>
+
+<!-- ══════════════ LIGHTBOX ══════════════ -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" onclick="closeLightbox()"><i class="fa-solid fa-xmark"></i></button>
+  <div class="lightbox-inner">
+    <i class="fa-solid fa-image"></i>
+    <h3 id="lb-title" style="font-family:'Bebas Neue',sans-serif;font-size:2rem;color:var(--yellow);margin-top:16px;letter-spacing:2px;"></h3>
+    <p id="lb-desc"></p>
+    <p style="margin-top:24px;font-size:.75rem;color:rgba(255,255,255,.3);letter-spacing:1px;text-transform:uppercase;">Upload your photos via the AutoMM Facebook group</p>
+  </div>
+</div>
+
+<script src="auto.js"></script>
+</body>
+</html>
